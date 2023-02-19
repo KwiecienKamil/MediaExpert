@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 100px;
+    background-color: black;
+    overflow: hidden;
+}
+.wrapper {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+.search-input {
+   font-family: 'Poppins', sans-serif;
+   font-size: 2rem;
+}
+.search-input::placeholder {
+    height: 60px;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+    
+   
+}
